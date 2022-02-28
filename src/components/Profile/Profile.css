@@ -1,0 +1,42 @@
+.my-account {
+  background-image: url("./images/myAccount.jpg");
+  min-height: 255px;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.is-active {
+  background-color: #f1f1f1;
+  border-radius: 6px;
+}
+
+.navigation-link a {
+  align-items: center;
+  border: 0;
+  color: var(--colorTextMain, #212121);
+  display: flex;
+  padding: 14px 20px 14px 15px;
+  transition: 0.15s ease-in-out;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navigation-link.is-active a {
+  font-weight: 700;
+}
+
+.navigation-link a:hover {
+  font-weight: 600;
+}
+
+.content {
+  padding: 56px 32px;
+}

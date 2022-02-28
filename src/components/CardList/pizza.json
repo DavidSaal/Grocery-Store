@@ -1,0 +1,71 @@
+{
+  "type": "product",
+  "products": [
+    {
+      "id": 192386,
+      "title": "Pizza Buddy: Frozen Pizza Dough, 16 Oz",
+      "image": "https://spoonacular.com/productImages/192386-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 27693,
+      "title": "Uno Pizza",
+      "image": "https://spoonacular.com/productImages/27693-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 143790,
+      "title": "Roma Pizza",
+      "image": "https://spoonacular.com/productImages/143790-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 84047,
+      "title": "Roma Pizza",
+      "image": "https://spoonacular.com/productImages/84047-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 161103,
+      "title": "Amy's Pizza Mushroom & Olive",
+      "image": "https://spoonacular.com/productImages/161103-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 134454,
+      "title": "Roma Pizza",
+      "image": "https://spoonacular.com/productImages/134454-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 143812,
+      "title": "Roma Pizza",
+      "image": "https://spoonacular.com/productImages/143812-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 143816,
+      "title": "Orvs Pizza",
+      "image": "https://spoonacular.com/productImages/143816-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 143805,
+      "title": "Roma Pizza",
+      "image": "https://spoonacular.com/productImages/143805-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 97223,
+      "title": "Roma Pizza",
+      "image": "https://spoonacular.com/productImages/97223-312x231.jpg",
+      "imageType": "jpg"
+    }
+  ],
+  "offset": 0,
+  "number": 10,
+  "totalProducts": 1258,
+  "processingTimeMs": 58,
+  "expires": 1617728403408,
+  "isStale": false
+}

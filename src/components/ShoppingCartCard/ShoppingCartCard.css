@@ -1,0 +1,17 @@
+.list-group-item:hover {
+  background-color: #fcfcfc;
+}
+
+.trash {
+  background-image: url("./icons/trash.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.trash:hover {
+  transform: scale(1.1);
+}

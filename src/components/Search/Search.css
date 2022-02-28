@@ -1,0 +1,21 @@
+.form-control:focus {
+  box-shadow: none;
+}
+.form-control::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+.btn {
+  cursor: default;
+}
+.w-40 {
+  width: 40%;
+}
+.fa-1x {
+  font-size: 20px;
+}
+.btn-search {
+  background-image: url("./icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}

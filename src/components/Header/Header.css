@@ -1,0 +1,75 @@
+.fs-7 {
+  font-size: 17px;
+}
+.store {
+  position: relative;
+  background-image: url("./icons/store.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.7rem;
+  height: 1.7rem;
+  cursor: pointer;
+}
+.shoppingCart {
+  position: relative;
+  background-image: url("./icons/shoppingCart.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15%;
+}
+.badge-notification {
+  position: absolute;
+  top: -0.2rem;
+  font-size: 0.6rem;
+  margin-left: 0.5rem;
+  padding: 0.2em 0.45em;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  vertical-align: baseline;
+}
+.fa-bars {
+  cursor: pointer;
+}
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  width: 26px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.menu > span {
+  height: 3px;
+  border-radius: 3px;
+  background-color: var(--localMenuTextColor, var(--menuTextColor, #212121));
+  margin-bottom: 6px;
+  display: block;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.menu > span:first-child {
+  width: 13px;
+}
+.menu > span:nth-child(2) {
+  width: 26px;
+}
+.menu > span:nth-child(3) {
+  width: 18px;
+}
+.menu:hover > span:first-child {
+  width: 26px;
+}
+.menu:hover > span:nth-child(2) {
+  width: 18px;
+}
+.menu:hover > span:nth-child(3) {
+  width: 13px;
+}

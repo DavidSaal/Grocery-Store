@@ -1,0 +1,71 @@
+{
+  "type": "product",
+  "products": [
+    {
+      "id": 463123,
+      "title": "Cavatappi Cavatappi White",
+      "image": "https://spoonacular.com/productImages/463123-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 149706,
+      "title": "McCormick Garlic Butter Shrimp Scampi Seasoning Mix",
+      "image": "https://spoonacular.com/productImages/149706-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 216010,
+      "title": "Rana Gnocchi Potato",
+      "image": "https://spoonacular.com/productImages/216010-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 216082,
+      "title": "Giovanni Rana Spaghetti",
+      "image": "https://spoonacular.com/productImages/216082-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 82366,
+      "title": "Barilla Angel Hair",
+      "image": "https://spoonacular.com/productImages/82366-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 149349,
+      "title": "Barilla Pasta Rigatoni",
+      "image": "https://spoonacular.com/productImages/149349-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 133198,
+      "title": "Dreamfields Spaghetti",
+      "image": "https://spoonacular.com/productImages/133198-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 58139,
+      "title": "Banquet Chicken Pasta Marinara",
+      "image": "https://spoonacular.com/productImages/58139-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 216600,
+      "title": "Reser's Fine Foods Baked Macaroni & Cheese",
+      "image": "https://spoonacular.com/productImages/216600-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 192377,
+      "title": "Simply Asia Roasted Peanut Noodles With Sauce & Topping, 11 oz (Pack of 6)",
+      "image": "https://spoonacular.com/productImages/192377-312x231.jpg",
+      "imageType": "jpg"
+    }
+  ],
+  "offset": 0,
+  "number": 10,
+  "totalProducts": 3022,
+  "processingTimeMs": 177,
+  "expires": 1617823229113,
+  "isStale": false
+}

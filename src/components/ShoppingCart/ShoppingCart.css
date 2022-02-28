@@ -1,0 +1,88 @@
+.checkout {
+  transition: transform 0.2s;
+}
+
+.checkout:hover {
+  transform: scale(1.05);
+}
+
+.creditCard {
+  background-image: url("./icons/creditCard.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.fade1 {
+  animation: fade 0.3s ease-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.payment-no-refresh {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.payment-no-refresh h4 {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.payment-no-refresh p {
+  font-size: 16px;
+  color: #6c6c6c;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.payment-loader {
+  height: 80px;
+}
+
+.payment-loader span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #acacac;
+  margin: 35px 5px;
+}
+
+.payment-loader span:nth-child(1) {
+  animation: bounce 1s ease-in-out infinite;
+}
+
+.payment-loader span:nth-child(2) {
+  animation: bounce 1s ease-in-out 0.33s infinite;
+}
+
+.payment-loader span:nth-child(3) {
+  animation: bounce 1s ease-in-out 0.66s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  75%,
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  25% {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    transform: translateY(-20px);
+    background-color: #df1146;
+  }
+}

@@ -34,7 +34,7 @@ const App = () => {
   }, [dispatch]);
 
   return (
-    <Router history={history}>
+    <Router history={history} basename={process.env.PUBLIC_URL}>
       <Header
         badge={badge}
         setBadge={setBadge}

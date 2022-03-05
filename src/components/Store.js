@@ -14,7 +14,7 @@ const Store = ({ setBadge }) => {
         <Sidenav setLoader={setLoader} />
       </div>
       <div className="col p-4">
-        {menu && <Banner setSearchedValue={setSearchedValue} />}
+        <Banner setSearchedValue={setSearchedValue} />
         <CardList
           setBadge={setBadge}
           loader={loader}

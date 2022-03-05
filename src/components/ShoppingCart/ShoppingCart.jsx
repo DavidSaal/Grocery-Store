@@ -2,12 +2,11 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ShoppingCartCard from "../ShoppingCartCard";
+import { getProducts } from "../utils";
 import "./ShoppingCart.css";
 
 const ShoppingCart = ({ hideModal, setBadge }) => {
-  let shoppingCartProducts = JSON.parse(
-    localStorage.getItem("shoppingCartProducts")
-  );
+  const products = getProducts;
 
   const navigate = useNavigate();
   const [isCheckOut, setIsCheckOut] = useState(false);
@@ -15,6 +14,7 @@ const ShoppingCart = ({ hideModal, setBadge }) => {
   const handleCheckOut = () => {
     setIsCheckOut(true);
     setTimeout(() => {
+      setBadge(0);
       setIsCheckOut(false);
       hideModal();
       navigate("/profile");
@@ -39,7 +39,7 @@ const ShoppingCart = ({ hideModal, setBadge }) => {
           ></button>
         </div>
         <div className="modal-body list-group">
-          {shoppingCartProducts?.map((product, index) => (
+          {products.map((product, index) => (
             <ShoppingCartCard
               key={index}
               product={product}

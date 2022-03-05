@@ -41,7 +41,11 @@ const App = () => {
         setMenu={() => setMenu(!menu)}
       />
       <Routes>
-        <Route exact path="/" element={<Store />} />
+        <Route
+          exact
+          path="/"
+          element={<Store badge={badge} setBadge={setBadge} />}
+        />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/profile" element={<Profile />} />

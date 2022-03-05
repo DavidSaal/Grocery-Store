@@ -3,10 +3,7 @@ import Sidenav from "./Sidenav";
 import Banner from "./Banner";
 import CardList from "./CardList";
 
-const Store = () => {
-  const [badge, setBadge] = useState(
-    JSON.parse(localStorage.getItem("shoppingCartProducts"))?.length || 0
-  );
+const Store = ({ setBadge }) => {
   const [menu, setMenu] = useState(true);
   const [loader, setLoader] = useState(false);
   const [searchedValue, setSearchedValue] = useState("");

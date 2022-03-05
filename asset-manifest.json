@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Grocery-Store/static/css/main.3eb45f5e.css",
-    "main.js": "/Grocery-Store/static/js/main.1af01858.js",
+    "main.css": "/Grocery-Store/static/css/main.9a8391e4.css",
+    "main.js": "/Grocery-Store/static/js/main.f9792c78.js",
+    "static/media/banner.jpg": "/Grocery-Store/static/media/banner.41cb49535174ddcbbdaf.jpg",
     "static/media/myAccount.jpg": "/Grocery-Store/static/media/myAccount.8e269971828cd03d506a.jpg",
     "static/media/signin-image.jpg": "/Grocery-Store/static/media/signin-image.6f1c72291c1ec0817ded.jpg",
     "static/media/signup-image.jpg": "/Grocery-Store/static/media/signup-image.bd994738c4eb8deb2801.jpg",
@@ -13,11 +14,11 @@
     "static/media/chevron-right.svg": "/Grocery-Store/static/media/chevron-right.17f25cc9bdc9b984065d.svg",
     "static/media/search.svg": "/Grocery-Store/static/media/search.ca9569514a6c3c3726ec.svg",
     "index.html": "/Grocery-Store/index.html",
-    "main.3eb45f5e.css.map": "/Grocery-Store/static/css/main.3eb45f5e.css.map",
-    "main.1af01858.js.map": "/Grocery-Store/static/js/main.1af01858.js.map"
+    "main.9a8391e4.css.map": "/Grocery-Store/static/css/main.9a8391e4.css.map",
+    "main.f9792c78.js.map": "/Grocery-Store/static/js/main.f9792c78.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eb45f5e.css",
-    "static/js/main.1af01858.js"
+    "static/css/main.9a8391e4.css",
+    "static/js/main.f9792c78.js"
   ]
 }

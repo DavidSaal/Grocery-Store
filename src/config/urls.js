@@ -5,7 +5,7 @@
 //459bff44f45e452cb432ea119e894a52
 export default {
   users: {
-    base: "http://localhost:5000",
+    base: "https://grocery-store-server-new.herokuapp.com/",
   },
   products: {
     base: "https://api.spoonacular.com/food/products/",

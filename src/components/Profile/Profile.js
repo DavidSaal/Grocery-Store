@@ -24,7 +24,7 @@ const Profile = () => {
   }, [currentUser, logOut]);
 
   if (!currentUser) {
-    return <Navigate to="/" />;
+    return <Navigate to={process.env.PUBLIC_URL} />;
   }
 
   return (

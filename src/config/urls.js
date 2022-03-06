@@ -5,7 +5,7 @@
 //459bff44f45e452cb432ea119e894a52
 export default {
   users: {
-    base: "https://grocery-store-server-new.herokuapp.com/",
+    base: "https://grocery-store-server-new.herokuapp.com/api/",
   },
   products: {
     base: "https://api.spoonacular.com/food/products/",
